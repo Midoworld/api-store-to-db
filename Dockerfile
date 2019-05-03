@@ -2,6 +2,8 @@ FROM python:3
 
 ADD __main__.py /
 
+ADD __version.py /
+
 #RUN pip install -r requirements.txt
 RUN pip install dnspython==1.15.0
 
